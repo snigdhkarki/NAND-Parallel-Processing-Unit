@@ -8,6 +8,8 @@ The underlying system architecture is founded on the principle of **functional c
 $f: \{0,1\}^n \rightarrow \{0,1\}$  
 can be simulated by decomposing a digital circuit netlist into a Directed Acyclic Graph (DAG) of NAND operations.
 
+This was our minor project for bachlors in Computer Engineering and the entire report can be found here: https://drive.google.com/file/d/1KPvnK-krxv_iP-mgzmHoSHE3aAXNJzQA/view?usp=sharing
+
 ## Hardware Architecture Overview
 
 The NPPU hardware framework uses a modular Register‑Transfer Level (RTL) approach designed for minimum logic depth to achieve operating frequencies exceeding 200 MHz on target Xilinx Artix‑7 FPGA devices. The layout consists of three primary layers:
